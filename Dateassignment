@@ -1,0 +1,9 @@
+#inputdate
+date= str(input('Enter a date in mm/dd/yyyy form:' ))
+print(date)
+month=date[:2]
+print(month)
+day=date[3:5]
+print(day)
+year=date[6:]
+print(year)
